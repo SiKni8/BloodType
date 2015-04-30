@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llAbout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/rlAll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/ivBottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_hdr_height"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/bottom_hdr_img" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ivBottom">
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="@dimen/about_logo_size"
+                android:layout_height="@dimen/about_logo_size"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/logo_margin_top"
+                android:src="@drawable/icon" />
+
+            <LinearLayout
+                android:id="@+id/llInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ivLogo"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:layout_margin="12sp">
+
+                <ScrollView
+                    android:id="@+id/svInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:isScrollContainer="true"
+                    android:scrollbarThumbVertical="@drawable/scolors">
+
+                    <RelativeLayout
+                        android:id="@+id/rlAboutAppInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:padding="@dimen/padding_for_about_info">
+
+                        <TextView
+                            android:id="@+id/tvAboutHdr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/about"
+                            android:textColor="@color/primary_text"
+                            android:textSize="@dimen/about_hdr_text" />
+
+                        <TextView
+                            android:id="@+id/tvAboutExplain"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvAboutHdr"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/about_explain"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="@dimen/about_ftr_text" />
+
+                        <TextView
+                            android:id="@+id/tvVersion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvAboutExplain"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/about_section_pad"
+                            android:text="@string/ver"
+                            android:textColor="@color/primary_text"
+                            android:textSize="@dimen/about_hdr_text" />
+
+                        <TextView
+                            android:id="@+id/tvVersionInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvVersion"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="1.0"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="@dimen/about_ftr_text" />
+
+                        <TextView
+                            android:id="@+id/tvCopyright"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvVersionInfo"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/about_section_pad"
+                            android:text="@string/copy"
+                            android:textColor="@color/primary_text"
+                            android:textSize="@dimen/about_hdr_text" />
+
+                        <TextView
+                            android:id="@+id/tvCopyrightInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvCopyright"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/copyright_info"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="@dimen/about_ftr_text" />
+
+                        <TextView
+                            android:id="@+id/tvContact"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvCopyrightInfo"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/about_section_pad"
+                            android:text="@string/contact"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/about_hdr_text" />
+
+                        <TextView
+                            android:id="@+id/tvContactExplain"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvContact"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/contact_me"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="@dimen/about_ftr_text" />
+
+                    </RelativeLayout>
+                </ScrollView>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/left_drawer_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:background="#fff">
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:background="#fff"
+            android:divider="#eee"
+            android:dividerHeight="1dp"
+            android:paddingTop="100dp"/>
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/top_hdr_img"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:text="Header"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="24sp"
+            style="@style/TextAppearance"/>
+    </RelativeLayout >
+
+</merge>
