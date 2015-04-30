@@ -30,7 +30,7 @@
             android:background="@drawable/top_hdr_img"
             android:gravity="bottom"
             android:orientation="vertical"
-            android:text="Header"
+            android:text="@string/app_name"
             android:textColor="#FFF"
             android:textStyle="bold"
             android:padding="10dp"
