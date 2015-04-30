@@ -105,14 +105,14 @@ public class BloodType extends BaseActionBarActivity {
 		}
 		if (varSent == 3) {
 			tvG.setText("" + strBloodType[3] + "");
-			tvR.setText("Everyone");
+			tvR.setText(getResources().getText(R.string.everyone));
 		}
 		if (varSent == 4) {
 			tvG.setText("" + strBloodType[varSent] + ", " + strBloodType[4] + ", " + strBloodType[3] + ", " + strBloodType[7] + "");
 			tvR.setText("" + strBloodType[4] + ", " + strBloodType[5] + "");
 		}
 		if (varSent == 5) {
-			tvG.setText("Everyone");
+			tvG.setText(getResources().getText(R.string.everyone));
 			tvR.setText("" + strBloodType[5] + "");
 		}
 		if (varSent == 6) {

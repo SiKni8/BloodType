@@ -21,6 +21,7 @@
 	<string name="table_receive_blood">Receive From</string>
 
 	<string name="blood_type">BLOOD\n\t\tTYPE:</string>
+	<string name="everyone">Everyone</string>
 	
 	<string name="share_blood_chart">Share Blood Chart</string>
 	<string name="save_img_title">Saving Image</string>
