@@ -36,7 +36,7 @@
                 android:shadowDx="4"
                 android:shadowDy="4"
                 android:shadowRadius="15"
-                android:text="BLOOD\n\t\tTYPE:"
+                android:text="@string/blood_type"
                 android:textColor="#D30308"
                 android:textSize="@dimen/info_height" />
 
