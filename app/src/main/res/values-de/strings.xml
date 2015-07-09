@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blutgruppen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="about"><u>ÜBER</u></string>
+	<string name="ver"><u>VERSION</u></string>
+	<string name="copy"><u>RECHTE</u></string>
+	<string name="contact"><u>KONTAKT</u></string>
+	
+	<string name="about_explain">Wer kann an welche Blutgruppe Blut spenden und welche Blutgruppen können einem Selbst gespendet werden? Diese App liefert die Informationen in einer einfachen und verständlichen Art und Weise</string>
+	<string name="copyright_info">© 2013 [Designed und Programmiert by SiKni8]\nLogo Design By: Matt Moore\nMaterial Design implemented by Andy Scherzinger\nAll other images are copyright to their respective owners</string>
+	<string name="contact_me">Fragen? Anmerkungen? Wünsche? Schicken Sie eine E-Mail an SiKni8@yahoo.com.</string>
+	<string name="info_get">Die Blutgruppen-Daten stammen aus der Datenbank des Roten Kreuzes.</string>
+	<string name="blood_select">BLUTGRUPPE WÄHLEN</string>
+	<string name="give_blood">Kann spenden an...</string>
+	<string name="receive_blood">Kann bekommen von...</string>
+	<string name="table_blood">Blutgruppe</string>
+	<string name="table_give_blood">Spenden an</string>
+	<string name="table_receive_blood">Bekommen von</string>
+
+	<string name="blood_type">BLUT\nGRUPPE:</string>
+	<string name="everyone">Jedem</string>
+	
+	<string name="share_blood_chart">Blutgruppentabelle teilen</string>
+	<string name="save_img_title">Tabelle speichern</string>
+	<string name="save_img_ftr">Tabelle wird gespeichert...</string>
+	
+	<string name="menu_table">Blutgruppentabelle</string>
+	<string name="menu_about">Über</string>
+	<string name="menu_help">Hilfe</string>
+	<string name="menu_rate">App Bewerten</string>
+	
+	<string name="menu_share_save">Tabelle speichern</string>
+	<string name="menu_share_share">Tabelle teilen</string>
+
+    <string name="drawer_open">öffnen</string>
+    <string name="drawer_close">schliessen</string>
+</resources>
